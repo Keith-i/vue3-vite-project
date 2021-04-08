@@ -7,15 +7,16 @@ export default defineConfig({
   plugins: [vue()],
   // base: './',
   build: {
-    assetsDir: './themes/vue',
-    outDir: 'dist'
+    assetsDir: "./themes/vue",
+    outDir: "dist",
   },
   optimizeDeps: {
     exclude: ["jsuites"],
   },
   resolve: {
     alias: {
-      "/@": path.resolve(__dirname, "./src"),
+      // "/@": path.resolve(__dirname, "./src"),
+      "@": path.resolve(__dirname, "./src"), // map '@' to './src'
     },
   },
   css: {
@@ -32,7 +33,7 @@ export default defineConfig({
         target: "http://192.168.0.201/mfcard/index.php",
         ws: true,
         changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/offiac/, '')
+        rewrite: (path) => path.replace(/^\/offiac/, ""),
       },
     },
   },

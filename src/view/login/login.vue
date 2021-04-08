@@ -1,3 +1,5 @@
 <template>
-  <div>登录</div>
+  <div class="imgs">
+    <img src="~@/assets/imgs/logo.png" />
+  </div>
 </template>

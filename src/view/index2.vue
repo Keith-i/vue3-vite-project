@@ -7,7 +7,7 @@
 
 <script>
 import { defineComponent, onMounted, toRef } from "vue";
-import { getHomePageBannerList } from '/@/services/public'
+import { getHomePageBannerList } from '@/services/public'
 import { Button } from "vant";
 import { useStore } from "vuex";
 

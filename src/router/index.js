@@ -6,19 +6,19 @@ const routes = [
   {
     path: "/",
     name: "indexpage",
-    component: () => import("/@/view/indexPage.vue"),
+    component: () => import("@/view/indexPage.vue"),
     children: [],
   },
   {
     path: "/two",
     name: "two",
-    component: () => import("/@/view/index2.vue"),
+    component: () => import("@/view/index2.vue"),
     children: [],
   },
   {
     path: "/login",
     name: "login",
-    component: () => import("/@/view/login"),
+    component: () => import("@/view/login"),
     children: [],
   },
 ];
