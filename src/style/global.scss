@@ -1,0 +1,23 @@
+// 字体大小
+$fontSize24: 24px;
+$fontSize26: 26px;
+$fontSize30: 30px;
+$fontSize34: 34px;
+
+// 颜色
+$normalColor: #333333; // #标题/正文
+$paragraphColor: #666666; // #大段文字/弱性文字
+$weakTxtColor: #999999; // #弱性文字/辅助文字
+$invalidColor: #b6b6b6; // #失效色
+$whiteColor: #ffffff; // #白色
+$mainColor: #f5b222; // #主色/链接/重点文案
+$successColor: #10cb63; // #成功
+$failColor: #ff6d2e; // #失败/驳回/危险
+$feedbackColor: #dc9f1e; // #主色/点击色/反馈色
+$gradualColorBtn: linear-gradient(to right, #ff6d2e, #f5b222); // #按钮渐变色
+$gradualColorBtnFeeBack: linear-gradient(to right, #e56129, #dc9f1e); // #按钮渐变色点击反馈色
+
+
+* {
+  box-sizing: border-box;
+}
